@@ -1,0 +1,81 @@
+body{
+	background:-color: gray;
+	text-align: left;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	z-index: 200;
+	}
+	.main-menu ul{
+		display: inline-flex;
+		list-style: none;
+		color: lightgray;
+	}
+	.main-menu ul li{
+		width: 90px;
+		margin: 15px;
+		font:-size: 30px;
+		texte-align: leftt;
+	}
+	.main-menu ul li a{
+		text-decoration: none;
+		color: lightgray;
+
+	}
+	.first-section{
+		font-size: 40px;
+		paddind-top: 50px;
+		background size: cover;
+		background-image: url(Amisa.jpg);
+		height: 400px;
+		position: relative;
+		background-position: center;
+		color: lightgray;
+
+	}
+	table{
+		margin-left: auto;
+		margin-right: auto;
+		border-right: collapse;
+		empty-cells: hide;
+		border-bottom: 1px solid black;
+	}
+	table th{
+		font-size: 40px;
+	}
+	table tr{
+		font-size: 10px;
+	}
+	footer{
+		position: sticky;
+		left: 0px;
+		bottom: 0px;
+		right: 10px;
+		width: 100%;
+		background-color: black;
+		text-align: center;
+		color: lightgray;
+		height: 120px;
+		font-size: 20px;
+		z-index: 100;
+		overflow: hidden;
+
+	}
+	.container{
+		margin: 150px auto;
+		width: 50px;
+		padding: 8px;
+	}
+	#left{
+		float: left;
+		display: inline-flex;
+		margin-left: 10px;
+	}
+	#center{
+		float: center;
+	}
+	image{
+		border-radius: 50%;
+		margin-left: 10px;
+	}
+
